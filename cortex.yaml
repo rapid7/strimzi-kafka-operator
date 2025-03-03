@@ -1,0 +1,17 @@
+---
+info:
+  title: strimzi-kafka-operator
+  description: Strimzi provides a way to run an Apache Kafka® cluster on Kubernetes or OpenShift in various deployment configurations
+  x-cortex-git:
+    github:
+      alias: r7org
+      repository: rapid7/strimzi-kafka-operator
+  x-cortex-tag: strimzi-kafka-operator
+  x-cortex-type: service
+  x-cortex-domain-parents:
+    - tag: data-platform-transport
+  x-cortex-groups:
+    - exposure:opensource
+openapi: 3.0.0
+servers:
+  - url: "/"
